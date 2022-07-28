@@ -1,0 +1,39 @@
+
+.card {
+    backdrop-filter: blur(2px) saturate(57%);
+    -webkit-backdrop-filter: blur(2px) saturate(57%);
+    background-color: rgb(131, 111,169);
+    border-radius: 10px;
+    border: 2px solid rgba(56, 31, 113, 0.831);
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.button-resgistros {
+    padding: 1.2em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .button-resgistros:hover {
+    background-color: #6923c4;
+    box-shadow: 0px 15px 20px rgba(76, 78, 228, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .button-resgistros:active {
+    transform: translateY(-1px);
+  }

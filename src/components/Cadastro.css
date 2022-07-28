@@ -1,0 +1,24 @@
+
+.form-cadastro{
+    background-color: rgba(117, 106, 140, 0.9);
+     position: absolute;
+     left: 50%;
+     top: 70%;
+     transform: translate(-50%,-50%);  
+     border-radius: 20px;
+     box-shadow: inset 0 0 1.6em -0.6em #a7a3cb;
+     border: solid 2px rgb(171, 115, 201);
+     padding: 20px 150px 20px 150px;
+     text-align: center;
+     color: #a7a3cb;
+ }
+ .button-register{
+     background-color: rgb(204, 198, 226);
+     padding: 15px;
+     border: none;
+     border-radius: 10px;
+ }
+ .titulo-cadastro{
+     font-size: 20PX;
+     color: rgb(172, 141, 231);
+ }

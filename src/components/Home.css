@@ -1,0 +1,202 @@
+
+/* From uiverse.io by @adamgiebl */
+
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/fundoimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .conteiner-fundo{
+  
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    font-family: 'Urbanist', sans-serif;
+  
+  }
+  .titulo{
+    justify-content: right;
+    font-size: 20px;
+    left: 86px;
+    margin-left: 60%;
+  }
+  
+  .titulo-a{
+    color: rgb(189, 123, 226);
+  }
+  
+  
+  .assistent{
+    left: 10%;
+    transform: translate(-40%,-30%);
+    position: relative;
+    width: 30%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .abstract-text{
+    padding: 15px;
+    left: 15%;
+    top: 30%;
+    transform: translate(-50%,-50%);  
+    border-radius: 20px;
+    color: white;
+    font-size: 11px;
+    margin: 70px;
+    position: absolute;
+    
+  }
+  
+   .paragrafo{
+   font-size: 20px;
+   position: absolute;
+   color: rgb(255, 255, 255);
+  
+   }
+   .conteiner-login{
+    margin: 100px;
+    padding: 100px;
+   }
+    .form-login{
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%,-65%);
+      text-align: center;
+      padding: 20px;
+      padding: 20px 150px 20px 150px;
+      backdrop-filter: blur(1px) saturate(90%);
+      -webkit-backdrop-filter: blur(1px) saturate(90%);
+      background-color: rgba(255, 255, 255, 0.234);
+      border-radius: 12px;
+      border: 1px solid rgba(163, 105, 184, 0.433);
+      
+    }
+  .cssbuttons-io-button {
+  
+    background: #673ab7f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 41px;
+    text-align: center;
+    padding-right: 171px;
+  
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+  
+  .form__group {
+    position: relative;
+    padding: 10px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+    color: transparent;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+  }
+  
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+  }
+  
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
